@@ -27,7 +27,7 @@ for (int i = 0; i < numbersInput.Length; i++)
 {
     Console.WriteLine("Enter integer no.1");
     numbersInput[i] = int.Parse(Console.ReadLine());
-    if(i % 2 == 0)
+    if(numbersInput[i] % 2 == 0)
     {
         result += numbersInput[i];
     }
